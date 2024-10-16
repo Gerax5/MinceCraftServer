@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+    environment:
+      TYPE: "AUTO_CURSEFORGE"
+      CF_API_KEY: "$$2a$$10$$EwVjm2RoiEIcvoBFmZNMzeHSDVZTQCbiJ/eqZBlL4wfUVXkLjnVmq"
+      CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/uvserver
+      MEMORY: "4G"
+      VERSION: "1.20.1"
+      EULA: "TRUE"
+    volumes:
+      # attach the relative directory 'data' to the container's /data path
+      - ./data:/data
+    restart: on-failure:3
+    command: /start_with_update_check.sh
+
+  update-checker:
+    image: alpine
+    volumes:
+      - ./scripts:/scripts
+    environment:
+      CF_API_KEY: "$$2a$$10$$EwVjm2RoiEIcvoBFmZNMzeHSDVZTQCbiJ/eqZBlL4wfUVXkLjnVmq"
+    command: ["/bin/sh", "/scripts/check_updates.sh"]

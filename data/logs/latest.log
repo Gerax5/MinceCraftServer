@@ -1,0 +1,965 @@
+[14Oct2024 14:53:21.452] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[14Oct2024 14:53:21.466] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.133.1-microsoft-standard-WSL2
+[14Oct2024 14:53:25.175] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14Oct2024 14:53:25.397] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/data/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[14Oct2024 14:53:27.137] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /data/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[14Oct2024 14:53:27.260] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /data/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[14Oct2024 14:53:27.327] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /data/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[14Oct2024 14:53:27.389] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /data/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[14Oct2024 14:53:30.050] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 29 dependencies adding them to mods collection
+[14Oct2024 14:53:31.129] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
+[14Oct2024 14:53:31.186] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
+[14Oct2024 14:53:31.224] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
+[14Oct2024 14:53:31.244] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /data/mods/scripts as it did not exist.
+[14Oct2024 14:53:31.260] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
+[14Oct2024 14:53:32.928] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Found version metadata from piston-meta.
+[14Oct2024 14:53:33.087] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: version.json is up to date.
+[14Oct2024 14:53:34.542] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Official mappings are up to date.
+[14Oct2024 14:53:35.757] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: MCPConfig is up to date.
+[14Oct2024 14:53:40.141] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 8873ms
+[14Oct2024 14:53:40.150] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
+[14Oct2024 14:53:42.102] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14Oct2024 14:53:42.617] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[14Oct2024 14:53:42.646] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Oct2024 14:53:42.661] [main/WARN] [mixin/]: Reference map 'carpeted-common-refmap.json' for carpeted-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Oct2024 14:53:42.664] [main/WARN] [mixin/]: Reference map 'carpeted-forge-refmap.json' for carpeted.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Oct2024 14:53:42.900] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 84 options available, 0 override(s) found
+[14Oct2024 14:53:42.902] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[14Oct2024 14:53:42.947] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[14Oct2024 14:53:43.120] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Oct2024 14:53:43.122] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Oct2024 14:53:43.143] [main/WARN] [mixin/]: Reference map 'morevillagers-forge-forge-refmap.json' for morevillagers.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Oct2024 14:53:43.203] [main/INFO] [Puzzles Lib/]: Loading 69 mods:
+	- aquaculture 2.5.2
+	- aquaculturedelight 1.0.0
+	- balm 7.3.9
+		\-- kuma_api 20.1.8
+	- better_beacons 1.1.1
+	- better_totem_of_undying 1.2.0
+	- betterfortresses 1.20-Forge-2.0.6
+	- bettermineshafts 1.20-Forge-4.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- bettertridents 8.0.1
+	- bettervillage 3.1.0
+	- biomesoplenty 18.0.0.592
+	- carpeted 1.20-1.4
+	- cerbons_api 1.0.0
+	- charmofundying 6.5.0+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- clumps 12.0.0.4
+	- cobweb 1.0.0
+	- collective 7.84
+	- comforts 6.4.0+1.20.1
+	- commongroovylibrary 0.3.3
+	- creativecore 2.12.17
+	- curios 5.10.0+1.20.1
+	- cwsr 3.4.0.0
+	- deep_dark_regrowth 1.2.6.1
+	- doubledoors 5.9
+	- dtbop 1.20.1-3.2.5
+	- dynamictrees 1.20.1-1.3.3
+	- easymagic 8.0.1
+	- ends_delight 2.4
+	- farmersdelight 1.20.1-1.2.4
+	- fastleafdecay 32
+	- firearrows 1.20.1-12-forge
+	- forge 47.3.0
+	- geckolib 4.4.9
+	- gml 4.0.9
+	- iceberg 1.1.21
+	- jei 15.20.0.104
+	- kiwi 11.6.2
+	- libraryferret 4.0.0
+	- lootr 0.7.34.87
+	- minecraft 1.20.1
+	- miners_delight 1.20.1-1.2.3
+	- mobplaques 8.0.1
+	- modernfix 5.19.4+mc1.20.1
+	- moonlight 1.20-2.13.7
+		\-- mixinextras 0.3.6
+	- morevillagers 5.0.0
+	- mr_tidal_towns 1.3.3
+	- naturescompass 1.20.1-1.11.2-forge
+	- nethersdelight 1.20.1-4.0
+	- oceansdelight 1.0.2-1.20
+	- playeranimator 1.0.2-rc1+1.20
+	- playerrevive 2.0.27
+	- puzzleslib 8.1.24
+		\-- puzzlesaccessapi 8.0.7
+	- sitmod 2.0.1
+	- snowrealmagic 10.4.0
+	- sophisticatedbackpacks 3.20.11.1115
+	- sophisticatedcore 0.6.34.718
+	- soul_fire_d 4.0.4
+	- stackablepotions 1.0.0
+	- terrablender 3.0.1.7
+	- tombstone 8.8.0
+	- trashslot 15.1.0
+	- w2w2 1.0
+	- waystones 14.1.5
+	- xaerominimap 24.5.0
+	- yungsapi 1.20-Forge-4.0.6
+[14Oct2024 14:53:44.790] [main/WARN] [mixin/]: Error loading class: sereneseasons/handler/season/RandomUpdateHandler (java.lang.ClassNotFoundException: sereneseasons.handler.season.RandomUpdateHandler)
+[14Oct2024 14:53:44.791] [main/WARN] [mixin/]: @Mixin target sereneseasons.handler.season.RandomUpdateHandler was not found snowrealmagic.mixins.json:sereneseasons.RandomUpdateHandlerMixin
+[14Oct2024 14:53:45.676] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[14Oct2024 14:53:47.065] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (36.40 s after launch)
+[14Oct2024 14:53:47.328] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[14Oct2024 14:53:47.329] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[14Oct2024 14:53:49.746] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2672 milliseconds
+[14Oct2024 14:53:51.214] [main/WARN] [mixin/]: @Final field f_58656_:Lnet/minecraft/world/inventory/ContainerData; in mixins.better_beacons.json:block.entity.BeaconBlockEntityMixin should be final
+[14Oct2024 14:53:51.226] [main/WARN] [mixin/]: @Final field f_58646_:[[Lnet/minecraft/world/effect/MobEffect; in mixins.better_beacons.json:block.entity.BeaconBlockEntityMixin should be final
+[14Oct2024 14:53:51.228] [main/WARN] [mixin/]: @Final field f_58647_:Ljava/util/Set; in mixins.better_beacons.json:block.entity.BeaconBlockEntityMixin should be final
+[14Oct2024 14:53:51.251] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on mixins.better_beacons.json:block.entity.BeaconBlockEntityMixin::handler$zjj000$better_beacons_applyTertiaryEffects exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[14Oct2024 14:54:00.107] [main/INFO] [org.groovymc.gml.internal.ModExtensionLoader/]: Skipping extension class org.groovymc.cgl.api.extension.client.MinecraftExtensions: it requires dist CLIENT, but we're running on DEDICATED_SERVER
+[14Oct2024 14:54:00.790] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[14Oct2024 14:54:01.188] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi/INIT]: Processing 3 KiwiModule annotations
+[14Oct2024 14:54:01.218] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[14Oct2024 14:54:01.246] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mobplaques:main
+[14Oct2024 14:54:01.255] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[14Oct2024 14:54:01.260] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[14Oct2024 14:54:01.266] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[14Oct2024 14:54:01.647] [modloading-worker-0/INFO] [gml/]: Initialised GML mod. Version: 4.0.9
+[14Oct2024 14:54:01.813] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.84.
+[14Oct2024 14:54:01.968] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for bettertridents:main
+[14Oct2024 14:54:02.199] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[14Oct2024 14:54:04.515] [modloading-worker-0/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[14Oct2024 14:54:04.881] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
+[14Oct2024 14:54:04.883] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
+[14Oct2024 14:54:07.930] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:contributors] initialized
+[14Oct2024 14:54:08.252] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [snowrealmagic:core] initialized
+[14Oct2024 14:54:08.254] [main/INFO] [snownee.kiwi.Kiwi/INIT]: 		block: 7, block_entity_type: 2, entity_type: 1, loot_pool_entry_type: 1
+[14Oct2024 14:54:08.255] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:data] initialized
+[14Oct2024 14:54:08.256] [main/INFO] [snownee.kiwi.Kiwi/INIT]: 		recipe_serializer: 3
+[14Oct2024 14:54:10.292] [Worker-Main-1/WARN] [com.ferreusveritas.dynamictrees.tree.species.PalmSpecies/]: Family dtbop:palm for palm species dtbop:palm is not of type class com.ferreusveritas.dynamictrees.tree.family.PalmFamily
+[14Oct2024 14:54:10.924] [main/INFO] [Moonlight/]: Initialized block sets in 29ms
+[14Oct2024 14:54:12.933] [main/INFO] [Puzzles Lib/]: Loading common config for bettertridents
+[14Oct2024 14:54:13.044] [main/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[14Oct2024 14:54:13.087] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /data/config/aquaculture-common.toml is not correct. Correcting
+[14Oct2024 14:54:13.089] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key basic options.How many blocks below sea level Aquaculture fish can spawn was corrected from 13 to its default, 0. 
+[14Oct2024 14:54:13.259] [modloading-worker-0/INFO] [cn.foggyhillside.ends_delight.EndsDelight/]: HELLO FROM PREINIT
+[14Oct2024 14:54:13.266] [modloading-worker-0/INFO] [cn.foggyhillside.ends_delight.EndsDelight/]: DIRT BLOCK >> translation{key='block.minecraft.dirt', args=[]}
+[14Oct2024 14:54:13.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mobplaques] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mobplaques.json
+[14Oct2024 14:54:13.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mobplaques] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[14Oct2024 14:54:13.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[14Oct2024 14:54:13.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[14Oct2024 14:54:13.694] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[14Oct2024 14:54:13.885] [main/INFO] [Moonlight/]: Initialized color sets in 53ms
+[14Oct2024 14:54:13.970] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[14Oct2024 14:54:13.971] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[14Oct2024 14:54:13.972] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[14Oct2024 14:54:13.973] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[14Oct2024 14:54:13.974] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[14Oct2024 14:54:13.974] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[14Oct2024 14:54:13.975] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[14Oct2024 14:54:14.240] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14Oct2024 14:54:14.253] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[14Oct2024 14:54:14.254] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Starting version check at https://api.modrinth.com/updates/cobweb/forge_updates.json
+[14Oct2024 14:54:14.266] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[14Oct2024 14:54:14.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Found status: UP_TO_DATE Current: 1.0.0 Target: null
+[14Oct2024 14:54:14.712] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [soul_fire_d] Starting version check at https://api.modrinth.com/updates/soul-fire-d/forge_updates.json
+[14Oct2024 14:54:14.891] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [soul_fire_d] Found status: UP_TO_DATE Current: 4.0.4 Target: null
+[14Oct2024 14:54:14.891] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[14Oct2024 14:54:14.968] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[14Oct2024 14:54:14.969] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Oct2024 14:54:15.336] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[14Oct2024 14:54:15.337] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[14Oct2024 14:54:15.383] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: Mods loaded with 2 warnings
+[14Oct2024 14:54:15.398] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: modernfix.no_ferritecore
+[14Oct2024 14:54:15.400] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: modernfix.perf_mod_warning
+[14Oct2024 14:54:15.411] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.7 Target: null
+[14Oct2024 14:54:15.412] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Starting version check at https://maven.moddinginquisition.org/releases/org/groovymc/gml/gml/forge-promotions.json
+[14Oct2024 14:54:15.493] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Oct2024 14:54:15.849] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+jei (version 15.12.2.51 -> 15.20.0.104)
+mixinextras (version 0.3.2 -> 0.3.6)
+sophisticatedcore (version 0.6.33.711 -> 0.6.34.718)
+Things may not work well.
+[14Oct2024 14:54:15.983] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: snowrealmagic:snow Expected: 1003 Got: 1573
+[14Oct2024 14:54:15.985] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: snowrealmagic:fence Expected: 1004 Got: 1574
+[14Oct2024 14:54:15.986] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: snowrealmagic:fence2 Expected: 1005 Got: 1575
+[14Oct2024 14:54:15.987] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: snowrealmagic:stairs Expected: 1006 Got: 1576
+[14Oct2024 14:54:15.987] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: snowrealmagic:slab Expected: 1007 Got: 1577
+[14Oct2024 14:54:15.988] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: snowrealmagic:fence_gate Expected: 1008 Got: 1578
+[14Oct2024 14:54:15.989] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: snowrealmagic:wall Expected: 1009 Got: 1579
+[14Oct2024 14:54:15.990] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: libraryferret:fake_iron_block Expected: 1010 Got: 1580
+[14Oct2024 14:54:15.991] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: libraryferret:fake_gold_block Expected: 1011 Got: 1581
+[14Oct2024 14:54:15.992] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: libraryferret:fake_emerald_block Expected: 1012 Got: 1582
+[14Oct2024 14:54:15.993] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: libraryferret:fake_diamond_block Expected: 1013 Got: 1583
+[14Oct2024 14:54:15.993] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: libraryferret:fake_netherite_block Expected: 1014 Got: 1584
+[14Oct2024 14:54:15.994] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: libraryferret:unbreakable_iron_beacon Expected: 1015 Got: 1585
+[14Oct2024 14:54:15.995] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: libraryferret:unbreakable_gold_beacon Expected: 1016 Got: 1586
+[14Oct2024 14:54:15.996] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: libraryferret:unbreakable_emerald_beacon Expected: 1017 Got: 1587
+[14Oct2024 14:54:15.997] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: libraryferret:unbreakable_diamond_beacon Expected: 1018 Got: 1588
+[14Oct2024 14:54:15.998] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: libraryferret:unbreakable_netherite_beacon Expected: 1019 Got: 1589
+[14Oct2024 14:54:15.999] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: carpeted:carpet_stairs Expected: 1020 Got: 1590
+[14Oct2024 14:54:15.999] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: carpeted:carpet_slab Expected: 1021 Got: 1591
+[14Oct2024 14:54:16.000] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ends_delight:chorus_fruit_pie Expected: 1209 Got: 1592
+[14Oct2024 14:54:16.001] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ends_delight:chorus_succulent Expected: 1210 Got: 1593
+[14Oct2024 14:54:16.002] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ends_delight:steamed_dragon_egg_block Expected: 1211 Got: 1594
+[14Oct2024 14:54:16.003] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ends_delight:dragon_meat_stew_block Expected: 1212 Got: 1595
+[14Oct2024 14:54:16.004] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ends_delight:grilled_shulker_block Expected: 1213 Got: 1596
+[14Oct2024 14:54:16.005] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ends_delight:end_stove Expected: 1214 Got: 1597
+[14Oct2024 14:54:16.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Found status: BETA Current: 4.0.9 Target: null
+[14Oct2024 14:54:16.006] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ends_delight:dragon_leg_with_sauce_block Expected: 1215 Got: 1598
+[14Oct2024 14:54:16.006] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tidal_towns] Starting version check at https://api.modrinth.com/updates/EEIwvQVo/forge_updates.json
+[14Oct2024 14:54:16.007] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ends_delight:chorus_fruit_crate Expected: 1216 Got: 1599
+[14Oct2024 14:54:16.008] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: morevillagers:oceanography_table Expected: 1217 Got: 1600
+[14Oct2024 14:54:16.009] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: morevillagers:woodworking_table Expected: 1218 Got: 1601
+[14Oct2024 14:54:16.010] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: morevillagers:decayed_workbench Expected: 1219 Got: 1602
+[14Oct2024 14:54:16.011] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: morevillagers:purpur_altar Expected: 1220 Got: 1603
+[14Oct2024 14:54:16.012] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: morevillagers:blueprint_table Expected: 1221 Got: 1604
+[14Oct2024 14:54:16.013] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: morevillagers:gardening_table Expected: 1222 Got: 1605
+[14Oct2024 14:54:16.014] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: morevillagers:hunting_post Expected: 1223 Got: 1606
+[14Oct2024 14:54:16.015] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: morevillagers:mining_bench Expected: 1224 Got: 1607
+[14Oct2024 14:54:16.016] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:blackstone_stove Expected: 1570 Got: 1608
+[14Oct2024 14:54:16.017] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:blackstone_furnace Expected: 1571 Got: 1609
+[14Oct2024 14:54:16.017] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:nether_brick_smoker Expected: 1572 Got: 1610
+[14Oct2024 14:54:16.018] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:blackstone_blast_furnace Expected: 1573 Got: 1611
+[14Oct2024 14:54:16.019] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:hoglin_trophy Expected: 1574 Got: 1612
+[14Oct2024 14:54:16.020] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:stuffed_hoglin Expected: 1575 Got: 1613
+[14Oct2024 14:54:16.021] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:crimson_fungus_colony Expected: 1576 Got: 1614
+[14Oct2024 14:54:16.022] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:warped_fungus_colony Expected: 1577 Got: 1615
+[14Oct2024 14:54:16.023] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:soul_compost Expected: 1578 Got: 1616
+[14Oct2024 14:54:16.024] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:rich_soul_soil Expected: 1579 Got: 1617
+[14Oct2024 14:54:16.024] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:mimicarnation Expected: 1580 Got: 1618
+[14Oct2024 14:54:16.025] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:potted_mimicarnation Expected: 1581 Got: 1619
+[14Oct2024 14:54:16.026] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:propelplant_stem Expected: 1582 Got: 1620
+[14Oct2024 14:54:16.026] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:propelplant_berry_stem Expected: 1583 Got: 1621
+[14Oct2024 14:54:16.027] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:propelplant_cane Expected: 1584 Got: 1622
+[14Oct2024 14:54:16.027] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:propelplant_berry_cane Expected: 1585 Got: 1623
+[14Oct2024 14:54:16.028] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:propelplant_torch Expected: 1586 Got: 1624
+[14Oct2024 14:54:16.029] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: nethersdelight:propelplant_wall_torch Expected: 1587 Got: 1625
+[14Oct2024 14:54:16.029] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: miners_delight:copper_pot Expected: 1588 Got: 1626
+[14Oct2024 14:54:16.030] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: miners_delight:sticky_basket Expected: 1589 Got: 1627
+[14Oct2024 14:54:16.031] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: miners_delight:stuffed_squid Expected: 1590 Got: 1628
+[14Oct2024 14:54:16.031] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: miners_delight:wild_cave_carrots Expected: 1591 Got: 1629
+[14Oct2024 14:54:16.032] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: miners_delight:gossypium Expected: 1592 Got: 1630
+[14Oct2024 14:54:16.033] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: miners_delight:cave_carrots Expected: 1593 Got: 1631
+[14Oct2024 14:54:16.034] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: miners_delight:cave_carrot_crate Expected: 1594 Got: 1632
+[14Oct2024 14:54:16.034] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: oceansdelight:guardian_soup Expected: 1627 Got: 1633
+[14Oct2024 14:54:16.061] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:iron_coins_jtl Expected: 1255 Got: 1996
+[14Oct2024 14:54:16.062] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:emerald_coins_jtl Expected: 1256 Got: 1997
+[14Oct2024 14:54:16.063] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:gold_coins_jtl Expected: 1257 Got: 1998
+[14Oct2024 14:54:16.063] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:diamond_coins_jtl Expected: 1258 Got: 1999
+[14Oct2024 14:54:16.064] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:netherite_coins_jtl Expected: 1259 Got: 2000
+[14Oct2024 14:54:16.065] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:fake_iron_block Expected: 1260 Got: 2001
+[14Oct2024 14:54:16.065] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:fake_gold_block Expected: 1261 Got: 2002
+[14Oct2024 14:54:16.066] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:fake_emerald_block Expected: 1262 Got: 2003
+[14Oct2024 14:54:16.068] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:fake_diamond_block Expected: 1263 Got: 2004
+[14Oct2024 14:54:16.068] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:fake_netherite_block Expected: 1264 Got: 2005
+[14Oct2024 14:54:16.069] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:unbreakable_iron_beacon Expected: 1265 Got: 2006
+[14Oct2024 14:54:16.070] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:unbreakable_gold_beacon Expected: 1266 Got: 2007
+[14Oct2024 14:54:16.071] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:unbreakable_emerald_beacon Expected: 1267 Got: 2008
+[14Oct2024 14:54:16.071] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:unbreakable_diamond_beacon Expected: 1268 Got: 2009
+[14Oct2024 14:54:16.072] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: libraryferret:unbreakable_netherite_beacon Expected: 1269 Got: 2010
+[14Oct2024 14:54:16.073] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:neptunium_knife Expected: 1270 Got: 2011
+[14Oct2024 14:54:16.073] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:raw_fish_fillet_roll Expected: 1271 Got: 2012
+[14Oct2024 14:54:16.074] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:jellyfish_jelly Expected: 1272 Got: 2013
+[14Oct2024 14:54:16.075] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:poor_fisher_chowder Expected: 1273 Got: 2014
+[14Oct2024 14:54:16.076] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:frog_leg_soup Expected: 1274 Got: 2015
+[14Oct2024 14:54:16.076] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:bass_stew Expected: 1275 Got: 2016
+[14Oct2024 14:54:16.077] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:unusual_fish_soup Expected: 1276 Got: 2017
+[14Oct2024 14:54:16.078] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:halaszle Expected: 1277 Got: 2018
+[14Oct2024 14:54:16.079] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:large_fish_with_vegetables Expected: 1278 Got: 2019
+[14Oct2024 14:54:16.079] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:baked_pollock_with_carrots Expected: 1279 Got: 2020
+[14Oct2024 14:54:16.080] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:buckling Expected: 1280 Got: 2021
+[14Oct2024 14:54:16.081] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:tuna_spaghetti Expected: 1281 Got: 2022
+[14Oct2024 14:54:16.081] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:rollmops Expected: 1282 Got: 2023
+[14Oct2024 14:54:16.082] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:turtle_meat_dish Expected: 1283 Got: 2024
+[14Oct2024 14:54:16.083] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:cooked_small_turtle_meat Expected: 1284 Got: 2025
+[14Oct2024 14:54:16.083] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:small_turtle_meat Expected: 1285 Got: 2026
+[14Oct2024 14:54:16.084] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:catfish_barbecue Expected: 1286 Got: 2027
+[14Oct2024 14:54:16.085] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aquaculturedelight:halibut_with_tartar_sauce Expected: 1287 Got: 2028
+[14Oct2024 14:54:16.085] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:chorus_fruit_crate Expected: 1577 Got: 2029
+[14Oct2024 14:54:16.086] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:end_stove Expected: 1578 Got: 2030
+[14Oct2024 14:54:16.086] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:dragon_egg_shell_knife Expected: 1579 Got: 2031
+[14Oct2024 14:54:16.087] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:purpur_knife Expected: 1580 Got: 2032
+[14Oct2024 14:54:16.088] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:end_stone_knife Expected: 1581 Got: 2033
+[14Oct2024 14:54:16.088] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:dragon_tooth_knife Expected: 1582 Got: 2034
+[14Oct2024 14:54:16.089] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:ender_pearl_grain Expected: 1583 Got: 2035
+[14Oct2024 14:54:16.090] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:chorus_fruit_grain Expected: 1584 Got: 2036
+[14Oct2024 14:54:16.091] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:chorus_succulent Expected: 1585 Got: 2037
+[14Oct2024 14:54:16.091] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:dried_chorus_flower Expected: 1586 Got: 2038
+[14Oct2024 14:54:16.092] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:dragon_tooth Expected: 1587 Got: 2039
+[14Oct2024 14:54:16.092] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:non_hatchable_dragon_egg Expected: 1588 Got: 2040
+[14Oct2024 14:54:16.093] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:half_dragon_egg_shell Expected: 1589 Got: 2041
+[14Oct2024 14:54:16.094] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:liquid_dragon_egg Expected: 1590 Got: 2042
+[14Oct2024 14:54:16.094] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:fried_dragon_egg Expected: 1591 Got: 2043
+[14Oct2024 14:54:16.095] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:shulker_meat Expected: 1592 Got: 2044
+[14Oct2024 14:54:16.096] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:shulker_meat_slice Expected: 1593 Got: 2045
+[14Oct2024 14:54:16.096] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:roasted_shulker_meat Expected: 1594 Got: 2046
+[14Oct2024 14:54:16.097] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:roasted_shulker_meat_slice Expected: 1595 Got: 2047
+[14Oct2024 14:54:16.100] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:dragon_leg Expected: 1596 Got: 2048
+[14Oct2024 14:54:16.100] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:smoked_dragon_leg Expected: 1597 Got: 2049
+[14Oct2024 14:54:16.101] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:raw_dragon_meat Expected: 1598 Got: 2050
+[14Oct2024 14:54:16.102] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:roasted_dragon_meat Expected: 1599 Got: 2051
+[14Oct2024 14:54:16.102] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:raw_dragon_meat_cuts Expected: 1600 Got: 2052
+[14Oct2024 14:54:16.103] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:roasted_dragon_meat_cuts Expected: 1601 Got: 2053
+[14Oct2024 14:54:16.103] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:raw_ender_mite_meat Expected: 1602 Got: 2054
+[14Oct2024 14:54:16.104] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:dried_endermite_meat Expected: 1603 Got: 2055
+[14Oct2024 14:54:16.106] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:enderman_gristle Expected: 1604 Got: 2056
+[14Oct2024 14:54:16.107] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:chorus_sauce Expected: 1605 Got: 2057
+[14Oct2024 14:54:16.107] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:shulker_omelette_mixture Expected: 1606 Got: 2058
+[14Oct2024 14:54:16.108] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:shulker_omelette Expected: 1607 Got: 2059
+[14Oct2024 14:54:16.109] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:raw_ender_sausage Expected: 1608 Got: 2060
+[14Oct2024 14:54:16.110] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:ender_sausage Expected: 1609 Got: 2061
+[14Oct2024 14:54:16.110] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:ender_bamboo_rice Expected: 1610 Got: 2062
+[14Oct2024 14:54:16.111] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:stuffed_rice_cake Expected: 1611 Got: 2063
+[14Oct2024 14:54:16.111] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:chorus_flower_pie Expected: 1612 Got: 2064
+[14Oct2024 14:54:16.112] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:chorus_cookie Expected: 1613 Got: 2065
+[14Oct2024 14:54:16.112] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:chorus_fruit_popsicle Expected: 1614 Got: 2066
+[14Oct2024 14:54:16.113] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:chorus_fruit_wine Expected: 1615 Got: 2067
+[14Oct2024 14:54:16.114] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:chorus_fruit_milk_tea Expected: 1616 Got: 2068
+[14Oct2024 14:54:16.114] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:bubble_tea Expected: 1617 Got: 2069
+[14Oct2024 14:54:16.115] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:dragon_breath_soda Expected: 1618 Got: 2070
+[14Oct2024 14:54:16.115] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:chorus_flower_tea Expected: 1619 Got: 2071
+[14Oct2024 14:54:16.116] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:chorus_fruit_pie Expected: 1620 Got: 2072
+[14Oct2024 14:54:16.116] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:chorus_fruit_pie_slice Expected: 1621 Got: 2073
+[14Oct2024 14:54:16.117] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:ender_congee Expected: 1622 Got: 2074
+[14Oct2024 14:54:16.117] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:dragon_breath_and_chorus_soup Expected: 1623 Got: 2075
+[14Oct2024 14:54:16.118] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:shulker_soup Expected: 1624 Got: 2076
+[14Oct2024 14:54:16.119] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:ender_noodle Expected: 1625 Got: 2077
+[14Oct2024 14:54:16.119] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:enderman_gristle_stew Expected: 1626 Got: 2078
+[14Oct2024 14:54:16.120] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:stir_fried_shulker_meat Expected: 1627 Got: 2079
+[14Oct2024 14:54:16.121] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:roasted_dragon_steak Expected: 1628 Got: 2080
+[14Oct2024 14:54:16.122] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:end_mixed_salad Expected: 1629 Got: 2081
+[14Oct2024 14:54:16.122] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:assorted_salad Expected: 1630 Got: 2082
+[14Oct2024 14:54:16.123] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:end_barbecue_stick Expected: 1631 Got: 2083
+[14Oct2024 14:54:16.124] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:dragon_leg_with_sauce_block Expected: 1632 Got: 2084
+[14Oct2024 14:54:16.124] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:dragon_leg_with_sauce Expected: 1633 Got: 2085
+[14Oct2024 14:54:16.126] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:steamed_dragon_egg_block Expected: 1634 Got: 2086
+[14Oct2024 14:54:16.126] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:steamed_dragon_egg Expected: 1635 Got: 2087
+[14Oct2024 14:54:16.127] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:dragon_meat_stew_block Expected: 1636 Got: 2088
+[14Oct2024 14:54:16.128] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:dragon_meat_stew Expected: 1637 Got: 2089
+[14Oct2024 14:54:16.128] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:grilled_shulker_block Expected: 1638 Got: 2090
+[14Oct2024 14:54:16.129] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ends_delight:grilled_shulker Expected: 1639 Got: 2091
+[14Oct2024 14:54:16.129] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: morevillagers:oceanography_table Expected: 1640 Got: 2092
+[14Oct2024 14:54:16.130] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: morevillagers:woodworking_table Expected: 1641 Got: 2093
+[14Oct2024 14:54:16.130] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: morevillagers:decayed_workbench Expected: 1642 Got: 2094
+[14Oct2024 14:54:16.131] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: morevillagers:purpur_altar Expected: 1643 Got: 2095
+[14Oct2024 14:54:16.132] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: morevillagers:blueprint_table Expected: 1644 Got: 2096
+[14Oct2024 14:54:16.132] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: morevillagers:gardening_table Expected: 1645 Got: 2097
+[14Oct2024 14:54:16.133] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: morevillagers:hunting_post Expected: 1646 Got: 2098
+[14Oct2024 14:54:16.133] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: morevillagers:mining_bench Expected: 1647 Got: 2099
+[14Oct2024 14:54:16.135] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: moonlight:placeable_item Expected: 1648 Got: 2100
+[14Oct2024 14:54:16.136] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:blackstone_stove Expected: 1998 Got: 2101
+[14Oct2024 14:54:16.137] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:blackstone_furnace Expected: 1999 Got: 2102
+[14Oct2024 14:54:16.138] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:nether_brick_smoker Expected: 2000 Got: 2103
+[14Oct2024 14:54:16.138] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:blackstone_blast_furnace Expected: 2001 Got: 2104
+[14Oct2024 14:54:16.139] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:crimson_fungus_colony Expected: 2002 Got: 2105
+[14Oct2024 14:54:16.139] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:warped_fungus_colony Expected: 2003 Got: 2106
+[14Oct2024 14:54:16.140] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:soul_compost Expected: 2004 Got: 2107
+[14Oct2024 14:54:16.141] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:rich_soul_soil Expected: 2005 Got: 2108
+[14Oct2024 14:54:16.141] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:mimicarnation Expected: 2006 Got: 2109
+[14Oct2024 14:54:16.142] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:hoglin_trophy Expected: 2007 Got: 2110
+[14Oct2024 14:54:16.143] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:stuffed_hoglin Expected: 2008 Got: 2111
+[14Oct2024 14:54:16.144] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:propelplant_cane Expected: 2009 Got: 2112
+[14Oct2024 14:54:16.144] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:propelplant_torch Expected: 2010 Got: 2113
+[14Oct2024 14:54:16.145] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:hoglin_hide Expected: 2011 Got: 2114
+[14Oct2024 14:54:16.146] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:raw_stuffed_hoglin Expected: 2012 Got: 2115
+[14Oct2024 14:54:16.147] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:hoglin_loin Expected: 2013 Got: 2116
+[14Oct2024 14:54:16.147] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:hoglin_sirloin Expected: 2014 Got: 2117
+[14Oct2024 14:54:16.156] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:strider_slice Expected: 2015 Got: 2118
+[14Oct2024 14:54:16.156] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:ground_strider Expected: 2016 Got: 2119
+[14Oct2024 14:54:16.158] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:hoglin_ear Expected: 2017 Got: 2120
+[14Oct2024 14:54:16.159] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:warped_moldy_meat Expected: 2018 Got: 2121
+[14Oct2024 14:54:16.159] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:grilled_strider Expected: 2019 Got: 2122
+[14Oct2024 14:54:16.160] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:strider_moss_stew Expected: 2020 Got: 2123
+[14Oct2024 14:54:16.161] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:plate_of_stuffed_hoglin_snout Expected: 2021 Got: 2124
+[14Oct2024 14:54:16.162] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:plate_of_stuffed_hoglin_ham Expected: 2022 Got: 2125
+[14Oct2024 14:54:16.163] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:plate_of_stuffed_hoglin_roast Expected: 2023 Got: 2126
+[14Oct2024 14:54:16.164] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:propelpearl Expected: 2024 Got: 2127
+[14Oct2024 14:54:16.164] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:nether_skewer Expected: 2025 Got: 2128
+[14Oct2024 14:54:16.165] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:magma_gelatin Expected: 2026 Got: 2129
+[14Oct2024 14:54:16.166] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:iron_machete Expected: 2027 Got: 2130
+[14Oct2024 14:54:16.167] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:diamond_machete Expected: 2028 Got: 2131
+[14Oct2024 14:54:16.168] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:netherite_machete Expected: 2029 Got: 2132
+[14Oct2024 14:54:16.168] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: nethersdelight:golden_machete Expected: 2030 Got: 2133
+[14Oct2024 14:54:16.169] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:copper_pot Expected: 2031 Got: 2134
+[14Oct2024 14:54:16.170] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:sticky_basket Expected: 2032 Got: 2135
+[14Oct2024 14:54:16.170] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:stuffed_squid Expected: 2033 Got: 2136
+[14Oct2024 14:54:16.171] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:wild_cave_carrots Expected: 2034 Got: 2137
+[14Oct2024 14:54:16.171] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:gossypium Expected: 2035 Got: 2138
+[14Oct2024 14:54:16.172] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:cave_carrot_crate Expected: 2036 Got: 2139
+[14Oct2024 14:54:16.172] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:copper_cup Expected: 2037 Got: 2140
+[14Oct2024 14:54:16.173] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:water_cup Expected: 2038 Got: 2141
+[14Oct2024 14:54:16.174] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:milk_cup Expected: 2039 Got: 2142
+[14Oct2024 14:54:16.175] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:powder_snow_cup Expected: 2040 Got: 2143
+[14Oct2024 14:54:16.176] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:cave_carrot Expected: 2041 Got: 2144
+[14Oct2024 14:54:16.176] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:baked_cave_carrot Expected: 2042 Got: 2145
+[14Oct2024 14:54:16.177] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:copper_carrot Expected: 2043 Got: 2146
+[14Oct2024 14:54:16.177] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:pasta_with_veggieballs Expected: 2044 Got: 2147
+[14Oct2024 14:54:16.178] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:cave_soup Expected: 2045 Got: 2148
+[14Oct2024 14:54:16.178] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:vegan_patty Expected: 2046 Got: 2149
+[14Oct2024 14:54:16.181] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:vegan_hamburger Expected: 2047 Got: 2150
+[14Oct2024 14:54:16.181] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:vegan_wrap Expected: 2048 Got: 2151
+[14Oct2024 14:54:16.182] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:vegan_steak_and_potatoes Expected: 2049 Got: 2152
+[14Oct2024 14:54:16.183] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:moss Expected: 2050 Got: 2153
+[14Oct2024 14:54:16.184] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:bat_wing Expected: 2051 Got: 2154
+[14Oct2024 14:54:16.185] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:smoked_bat_wing Expected: 2052 Got: 2155
+[14Oct2024 14:54:16.186] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:bat_rolls Expected: 2053 Got: 2156
+[14Oct2024 14:54:16.186] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:bat_cookie Expected: 2054 Got: 2157
+[14Oct2024 14:54:16.188] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:improvised_barbecue_stick Expected: 2055 Got: 2158
+[14Oct2024 14:54:16.188] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:bat_soup Expected: 2056 Got: 2159
+[14Oct2024 14:54:16.189] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:silverfish_eggs Expected: 2057 Got: 2160
+[14Oct2024 14:54:16.190] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:weird_caviar Expected: 2058 Got: 2161
+[14Oct2024 14:54:16.190] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:arthropod Expected: 2059 Got: 2162
+[14Oct2024 14:54:16.191] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:cooked_arthropod Expected: 2060 Got: 2163
+[14Oct2024 14:54:16.193] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:insect_sandwich Expected: 2061 Got: 2164
+[14Oct2024 14:54:16.193] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:insect_wrap Expected: 2062 Got: 2165
+[14Oct2024 14:54:16.194] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:insect_stew Expected: 2063 Got: 2166
+[14Oct2024 14:54:16.195] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:seasoned_arthropods Expected: 2064 Got: 2167
+[14Oct2024 14:54:16.196] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:squid Expected: 2065 Got: 2168
+[14Oct2024 14:54:16.197] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:glow_squid Expected: 2066 Got: 2169
+[14Oct2024 14:54:16.198] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:baked_squid Expected: 2067 Got: 2170
+[14Oct2024 14:54:16.199] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:tentacles Expected: 2068 Got: 2171
+[14Oct2024 14:54:16.200] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:baked_tentacles Expected: 2069 Got: 2172
+[14Oct2024 14:54:16.201] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:squid_sandwich Expected: 2070 Got: 2173
+[14Oct2024 14:54:16.201] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:takoyaki Expected: 2071 Got: 2174
+[14Oct2024 14:54:16.202] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:bowl_of_stuffed_squid Expected: 2072 Got: 2175
+[14Oct2024 14:54:16.203] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:glow_ink_pasta Expected: 2073 Got: 2176
+[14Oct2024 14:54:16.204] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:beetroot_soup_cup Expected: 2074 Got: 2177
+[14Oct2024 14:54:16.205] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:mushroom_stew_cup Expected: 2075 Got: 2178
+[14Oct2024 14:54:16.205] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:rabbit_stew_cup Expected: 2076 Got: 2179
+[14Oct2024 14:54:16.206] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:baked_cod_stew_cup Expected: 2077 Got: 2180
+[14Oct2024 14:54:16.208] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:noodle_soup_cup Expected: 2078 Got: 2181
+[14Oct2024 14:54:16.209] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:beef_stew_cup Expected: 2079 Got: 2182
+[14Oct2024 14:54:16.210] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:chicken_soup_cup Expected: 2080 Got: 2183
+[14Oct2024 14:54:16.211] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:fish_stew_cup Expected: 2081 Got: 2184
+[14Oct2024 14:54:16.212] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:pumpkin_soup_cup Expected: 2082 Got: 2185
+[14Oct2024 14:54:16.212] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:vegetable_soup_cup Expected: 2083 Got: 2186
+[14Oct2024 14:54:16.213] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:bone_broth_cup Expected: 2084 Got: 2187
+[14Oct2024 14:54:16.214] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:cave_soup_cup Expected: 2085 Got: 2188
+[14Oct2024 14:54:16.216] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:bat_soup_cup Expected: 2086 Got: 2189
+[14Oct2024 14:54:16.217] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: miners_delight:insect_stew_cup Expected: 2087 Got: 2190
+[14Oct2024 14:54:16.218] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bettertridents:trident_fragment Expected: 2185 Got: 2191
+[14Oct2024 14:54:16.219] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:tentacles Expected: 2186 Got: 2192
+[14Oct2024 14:54:16.219] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:cut_tentacles Expected: 2187 Got: 2193
+[14Oct2024 14:54:16.220] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:squid_rings Expected: 2188 Got: 2194
+[14Oct2024 14:54:16.221] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:tentacle_on_a_stick Expected: 2189 Got: 2195
+[14Oct2024 14:54:16.221] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:baked_tentacle_on_a_stick Expected: 2190 Got: 2196
+[14Oct2024 14:54:16.222] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:guardian Expected: 2191 Got: 2197
+[14Oct2024 14:54:16.223] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:guardian_soup Expected: 2192 Got: 2198
+[14Oct2024 14:54:16.224] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:guardian_tail Expected: 2193 Got: 2199
+[14Oct2024 14:54:16.224] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:cooked_guardian_tail Expected: 2194 Got: 2200
+[14Oct2024 14:54:16.225] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:bowl_of_guardian_soup Expected: 2195 Got: 2201
+[14Oct2024 14:54:16.226] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:elder_guardian_slab Expected: 2196 Got: 2202
+[14Oct2024 14:54:16.226] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:elder_guardian_slice Expected: 2197 Got: 2203
+[14Oct2024 14:54:16.227] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:cooked_elder_guardian_slice Expected: 2198 Got: 2204
+[14Oct2024 14:54:16.228] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:elder_guardian_roll Expected: 2199 Got: 2205
+[14Oct2024 14:54:16.229] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:cabbage_wrapped_elder_guardian Expected: 2200 Got: 2206
+[14Oct2024 14:54:16.229] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:fugu_slice Expected: 2201 Got: 2207
+[14Oct2024 14:54:16.230] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:fugu_roll Expected: 2202 Got: 2208
+[14Oct2024 14:54:16.231] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:braised_sea_pickle Expected: 2203 Got: 2209
+[14Oct2024 14:54:16.231] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:stuffed_cod Expected: 2204 Got: 2210
+[14Oct2024 14:54:16.232] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:cooked_stuffed_cod Expected: 2205 Got: 2211
+[14Oct2024 14:54:16.233] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:honey_fried_kelp Expected: 2206 Got: 2212
+[14Oct2024 14:54:16.233] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: oceansdelight:seagrass_salad Expected: 2207 Got: 2213
+[14Oct2024 14:54:16.263] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: libraryferret:unbreakable_curse Expected: 0 Got: 54
+[14Oct2024 14:54:16.264] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_minimap Expected: 36 Got: 55
+[14Oct2024 14:54:16.265] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_minimap_harmful Expected: 37 Got: 56
+[14Oct2024 14:54:16.265] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_entity_radar Expected: 38 Got: 57
+[14Oct2024 14:54:16.266] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_entity_radar_harmful Expected: 39 Got: 58
+[14Oct2024 14:54:16.267] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_waypoints Expected: 40 Got: 59
+[14Oct2024 14:54:16.267] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_waypoints_harmful Expected: 41 Got: 60
+[14Oct2024 14:54:16.268] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_cave_maps Expected: 42 Got: 61
+[14Oct2024 14:54:16.268] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_cave_maps_harmful Expected: 43 Got: 62
+[14Oct2024 14:54:16.269] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: better_beacons:phantom_bane Expected: 44 Got: 63
+[14Oct2024 14:54:16.270] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: better_beacons:patrol_nullifier Expected: 45 Got: 64
+[14Oct2024 14:54:16.270] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: better_beacons:long_reach Expected: 46 Got: 65
+[14Oct2024 14:54:16.272] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: miners_delight:haste Expected: 43 Got: 50
+[14Oct2024 14:54:16.273] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: miners_delight:long_haste Expected: 44 Got: 51
+[14Oct2024 14:54:16.273] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: miners_delight:strong_haste Expected: 45 Got: 52
+[14Oct2024 14:54:16.274] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: miners_delight:mining_fatigue Expected: 46 Got: 53
+[14Oct2024 14:54:16.274] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: miners_delight:long_mining_fatigue Expected: 47 Got: 54
+[14Oct2024 14:54:16.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: miners_delight:strong_mining_fatigue Expected: 48 Got: 55
+[14Oct2024 14:54:16.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: minecraft:soul_fire_aspect Expected: 39 Got: 48
+[14Oct2024 14:54:16.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: minecraft:soul_flame Expected: 40 Got: 49
+[14Oct2024 14:54:16.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: snowrealmagic:snow Expected: 124 Got: 133
+[14Oct2024 14:54:16.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bettertridents:loyal_item Expected: 133 Got: 134
+[14Oct2024 14:54:16.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bettertridents:loyal_experience_orb Expected: 134 Got: 135
+[14Oct2024 14:54:16.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tidal_towns] Found status: OUTDATED Current: 1.3.3 Target: 1.3.3+mod
+[14Oct2024 14:54:16.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[14Oct2024 14:54:16.542] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/data/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23225!/assets/.mcassetsroot' uses unexpected schema
+[14Oct2024 14:54:16.542] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/data/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23225!/data/.mcassetsroot' uses unexpected schema
+[14Oct2024 14:54:16.720] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.0.jar%23226!/:?]
+	at java.lang.Iterable.forEach(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.0.jar%23226!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[14Oct2024 14:54:16.724] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[14Oct2024 14:54:16.798] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.8.0 Target: null
+[14Oct2024 14:54:16.805] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettertridents] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/bettertridents.json
+[14Oct2024 14:54:16.823] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack soul_fire_d:campfire_tags, loading it automatically
+[14Oct2024 14:54:16.824] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack soul_fire_d:fire_source_tags, loading it automatically
+[14Oct2024 14:54:16.879] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettertridents] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[14Oct2024 14:54:16.880] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[14Oct2024 14:54:16.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.24 Target: null
+[14Oct2024 14:54:16.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[14Oct2024 14:54:17.350] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: BETA Current: 1.20.1-1.3.3 Target: null
+[14Oct2024 14:54:17.351] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dtbop] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/Add-ons/BOP.json?raw=true
+[14Oct2024 14:54:17.559] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dtbop] Found status: BETA Current: 1.20.1-3.2.5 Target: null
+[14Oct2024 14:54:25.582] [Worker-Main-15/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:dtbop:trees/voluntary/glowshroom
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dtbop:glowshroom_seed'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?]
+[14Oct2024 14:54:25.614] [Worker-Main-15/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:dtbop:trees/voluntary/toadstool
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dtbop:toadstool_seed'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?]
+[14Oct2024 14:54:25.853] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dynamictrees:guide: com.google.gson.JsonSyntaxException: Missing conditions, expected to find a JsonArray
+[14Oct2024 14:54:25.871] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[14Oct2024 14:54:26.089] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2229 advancements
+[14Oct2024 14:54:26.103] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[14Oct2024 14:54:26.111] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[14Oct2024 14:54:26.122] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternatives'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14Oct2024 14:54:26.129] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_leather - error: Unknown type 'minecraft:alternatives'
+[14Oct2024 14:54:26.130] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14Oct2024 14:54:26.134] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_string - error: Unknown type 'minecraft:alternative'
+[14Oct2024 14:54:26.137] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$7.decode(RecordCodecBuilder.java:406) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14Oct2024 14:54:26.141] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id miners_delight:scavenging_tentacles - error: Unknown type 'alternative'
+[14Oct2024 14:54:26.144] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.0-universal.jar%23230!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14Oct2024 14:54:26.164] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id miners_delight:scavenging_silverfish - error: Unknown type 'alternative'
+[14Oct2024 14:54:26.167] [main/ERROR] [bettervillage/]: More Villagers compatibility is not enabled for Better Village and More Villagers is present in your mod list.
+     - Please install the datapack for better compatibility between Better Villages and More Villagers.
+     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
+     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
+[14Oct2024 14:54:26.891] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14Oct2024 14:54:26.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Oct2024 14:54:26.893] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Oct2024 14:54:26.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Oct2024 14:54:26.966] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Oct2024 14:54:27.095] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Oct2024 14:54:27.539] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[14Oct2024 14:54:27.604] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/curios-server.toml is not correct. Correcting
+[14Oct2024 14:54:27.609] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key keepCurios was corrected from null to its default, DEFAULT. 
+[14Oct2024 14:54:27.630] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 14:54:27.631] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.enableLegacyMenu was corrected from null to its default, false. 
+[14Oct2024 14:54:27.633] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 14:54:27.634] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental.minimumColumns was corrected from null to its default, 1. 
+[14Oct2024 14:54:27.635] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental.maxSlotsPerPage was corrected from null to its default, 48. 
+[14Oct2024 14:54:27.667] [Server thread/INFO] [Puzzles Lib/]: Loading server config for bettertridents
+[14Oct2024 14:54:27.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/fastleafdecay-server.toml is not correct. Correcting
+[14Oct2024 14:54:27.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MinimumDecayTime was corrected from null to its default, 4. 
+[14Oct2024 14:54:27.727] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaximumDecayTime was corrected from null to its default, 11. 
+[14Oct2024 14:54:27.775] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/dynamictrees-server.toml is not correct. Correcting
+[14Oct2024 14:54:27.780] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 14:54:27.781] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds.leavesSeedDropRate was corrected from null to its default, 1.0. 
+[14Oct2024 14:54:27.782] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds.voluntarySeedDropRate was corrected from null to its default, 0.01. 
+[14Oct2024 14:54:27.784] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds.seedPlantRate was corrected from null to its default, 0.1666666716337204. 
+[14Oct2024 14:54:27.785] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds.timeToLive was corrected from null to its default, 1200. 
+[14Oct2024 14:54:27.786] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds.seedOnlyForest was corrected from null to its default, true. 
+[14Oct2024 14:54:27.787] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key seeds.seedMinForestness was corrected from null to its default, 0.0. 
+[14Oct2024 14:54:27.802] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 14:54:27.803] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.growthMultiplier was corrected from null to its default, 0.5. 
+[14Oct2024 14:54:27.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.harvestMultiplier was corrected from null to its default, 1.0. 
+[14Oct2024 14:54:27.805] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.maxTreeHardness was corrected from null to its default, 20.0. 
+[14Oct2024 14:54:27.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.growthFolding was corrected from null to its default, 2. 
+[14Oct2024 14:54:27.807] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.dropSticks was corrected from null to its default, true. 
+[14Oct2024 14:54:27.808] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.scaleBiomeGrowthRate was corrected from null to its default, 0.5. 
+[14Oct2024 14:54:27.810] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.diseaseChance was corrected from null to its default, 0.0. 
+[14Oct2024 14:54:27.811] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.maxBranchRotRadius was corrected from null to its default, 7. 
+[14Oct2024 14:54:27.813] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.rootyBlockHardnessMultiplier was corrected from null to its default, 40.0. 
+[14Oct2024 14:54:27.815] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.swampOaksInWater was corrected from null to its default, ROOTED. 
+[14Oct2024 14:54:27.816] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trees.boneMealGrowthPulses was corrected from null to its default, 1. 
+[14Oct2024 14:54:27.834] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 14:54:27.835] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.isLeavesPassable was corrected from null to its default, false. 
+[14Oct2024 14:54:27.836] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.vanillaLeavesCollision was corrected from null to its default, false. 
+[14Oct2024 14:54:27.839] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.enableBranchClimbling was corrected from null to its default, true. 
+[14Oct2024 14:54:27.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.canopyCrash was corrected from null to its default, true. 
+[14Oct2024 14:54:27.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.axeDamageMode was corrected from null to its default, THICKNESS. 
+[14Oct2024 14:54:27.844] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.enableFallingTrees was corrected from null to its default, true. 
+[14Oct2024 14:54:27.846] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.enableFallingTreeDamage was corrected from null to its default, true. 
+[14Oct2024 14:54:27.847] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.fallingTreeDamageMultiplier was corrected from null to its default, 1.0. 
+[14Oct2024 14:54:27.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.dirtBucketPlacesDirt was corrected from null to its default, true. 
+[14Oct2024 14:54:27.850] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.sloppyBreakDrops was corrected from null to its default, false. 
+[14Oct2024 14:54:27.851] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.minRadiusForStrip was corrected from null to its default, 6. 
+[14Oct2024 14:54:27.853] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.enableStripRadiusReduction was corrected from null to its default, true. 
+[14Oct2024 14:54:27.854] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.canBoneMealFruit was corrected from null to its default, false. 
+[14Oct2024 14:54:27.856] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.canBoneMealPods was corrected from null to its default, true. 
+[14Oct2024 14:54:27.857] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interaction.dynamicSaplingDrops was corrected from null to its default, true. 
+[14Oct2024 14:54:27.873] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key growthFolding was corrected from null to its default, 400. 
+[14Oct2024 14:54:27.895] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 14:54:27.896] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.podzolGen was corrected from null to its default, true. 
+[14Oct2024 14:54:27.898] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.worldGen was corrected from null to its default, true. 
+[14Oct2024 14:54:27.900] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.dimensionsBlacklist was corrected from null to its default, []. 
+[14Oct2024 14:54:27.920] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2024 14:54:27.921] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.debug was corrected from null to its default, false. 
+[14Oct2024 14:54:28.347] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[14Oct2024 14:54:28.896] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[14Oct2024 14:54:28.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Oct2024 14:54:29.505] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[14Oct2024 14:54:30.205] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class fuzs.bettertridents.world.entity.item.LoyalItemEntity from class fuzs.bettertridents.world.entity.item.LoyalExperienceOrb
+[14Oct2024 14:54:30.292] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[14Oct2024 14:54:30.357] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[14Oct2024 14:54:30.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Oct2024 14:54:32.220] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 14:54:32.221] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 14:54:32.223] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 14:54:32.224] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 14:54:32.384] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2024 14:54:32.954] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2571 ms
+[14Oct2024 14:54:32.956] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.444s)! For help, type "help"
+[14Oct2024 14:54:32.957] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting remote control listener
+[14Oct2024 14:54:32.965] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener started
+[14Oct2024 14:54:32.966] [Server thread/INFO] [net.minecraft.server.rcon.thread.RconThread/]: RCON running on 0.0.0.0:25575
+[14Oct2024 14:54:33.060] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Oct2024 14:54:33.092] [Server thread/WARN] [ModernFix/]: Dedicated server took 82.417 seconds to load
+[14Oct2024 14:58:43.559] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Di3g0cool03 is e784e3ed-d9ff-4259-a5dc-155321d00a32
+[14Oct2024 14:58:45.350] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Di3g0cool03[/172.18.0.1:43954] logged in with entity id 316 at (109.30000001192093, 61.0, -262.69999998807907)
+[14Oct2024 14:58:45.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Di3g0cool03 joined the game
+[14Oct2024 14:58:53.066] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[14Oct2024 14:59:26.095] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Di3g0cool03 lost connection: Disconnected
+[14Oct2024 14:59:26.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Di3g0cool03 left the game
+[14Oct2024 14:59:50.088] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /127.0.0.1 started
+[14Oct2024 14:59:50.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Stopping the server]
+[14Oct2024 14:59:50.094] [RCON Client /127.0.0.1 #2/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /127.0.0.1 shutting down
+[14Oct2024 14:59:50.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Oct2024 14:59:50.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Oct2024 14:59:50.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Oct2024 14:59:50.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14Oct2024 14:59:50.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14Oct2024 14:59:50.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14Oct2024 14:59:50.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Oct2024 14:59:50.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Oct2024 14:59:50.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Oct2024 14:59:50.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14Oct2024 14:59:50.777] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped
